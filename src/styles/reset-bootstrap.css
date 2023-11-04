@@ -1,0 +1,10 @@
+.form-control{
+    height: 45px;
+    border-color: #888;
+    border-radius: 0;
+}
+
+.btn{
+    height: 45px;
+    border-radius: 0;
+}
