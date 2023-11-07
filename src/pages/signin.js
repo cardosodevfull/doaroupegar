@@ -63,7 +63,7 @@ function Signin() {
                         </div>
                         <PatternFormat
                             onChange={(e) => setPhoneNumber(e.target.value)}
-                            format="+55 ## ##### ####"
+                            format="+55 61 ##### ####"
                             className="form-control"
                             placeholder="Informe seu telefone"
                             type="tel"

@@ -19,20 +19,34 @@ body {
     margin: 0;
 }
 
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-}
-
 .app-container{
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: auto;
     min-height: 70vh;
-    justify-content: center;    
+    justify-content: center; 
 }
 
+.base-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.btn-warning {
+    margin-left: 5px !important;
+}
+.flex{
+    display: flex;   
+   flex-direction: row;
+   margin-top: 1rem;
+}
 
